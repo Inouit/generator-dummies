@@ -1,55 +1,47 @@
-# generator-dummies
+# generator-dummies-new [![Build Status](https://secure.travis-ci.org/JuJulien/generator-dummies-new.png?branch=master)](https://travis-ci.org/JuJulien/generator-dummies-new)
 
-A light Sass &amp; coffee front-end base in a generator for [Yeoman](http://yeoman.io).
-It scaffold a **[Dummy](https://github.com/Inouit/dummy)** **[1.1.0](https://github.com/Inouit/dummy/tree/1.1.0)**
-
-# Usage
-
-- npm install -g generator-dummies
-- yo dummies
-- run **grunt serve**
-- work
+> [Yeoman](http://yeoman.io) generator
 
 
-# Features
+## Getting Started
 
-Go check the **[Dummy](https://github.com/Inouit/dummy)** to get a full list!
+### What is Yeoman?
+
+Trick question. It's not a thing. It's this guy:
+
+![](http://i.imgur.com/JHaAlBJ.png)
+
+Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+
+Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+
+```
+$ npm install -g yo
+```
+
+### Yeoman Generators
+
+Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
+
+To install generator-dummies-new from npm, run:
+
+```
+$ npm install -g generator-dummies-new
+```
+
+Finally, initiate the generator:
+
+```
+$ yo dummies-new
+```
+
+### Getting To Know Yeoman
+
+Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+
+If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
 
-- A watch task to compile CoffeeScripts (optional) & Sass
-- Autoprefixer for css
-- Live reloading
-- A task to generate annotated sources fo Sass & CoffeScript files
-- [Notifications](https://github.com/dylang/grunt-notify#grunt-notify-) for errors.
+## License
 
-
-# To discuss
-
-## Structure
-
-- lint files / check for code syntax conventions
-
-## Tasks
-
-- Add a task to check git HEAD before running any task. (grunt-git ?)
-
-
-# Road map
-
-- split grunt tasks into files
-- solve discussions questions and implement them
-- Add imagemin to handle optimization
-- custom Modernizr build
-
-
-- **2.0.0**: Write full suite test
-
-- Browserify / CommonJS
-- Add tasks to export sources, and push to prod
-- Add grunt configuration for symfony2
-- Full compatibility (livereloading) with *skinFlex* for *Typo3* (clean the cache entry in database)
-
-# Dependencies
-
-The build and serve tasks use the plugin **grunt-contrib-sass**, it requires you to have **[Ruby](https://www.ruby-lang.org/)**
-
+MIT

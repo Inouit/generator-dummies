@@ -1,53 +1,35 @@
 {
   "name": "generator-dummies",
-  "description": "a dummy generator - light Sass & coffee front-end base",
-  "version": "1.2.1",
-  "author": {
-    "name": "Inouit",
-    "url": "www.inouit.fr"
-  },
-  "contributors": [
-    "Plou <cl.plou@gmail.com> (http://plou.github.io/)",
-    "Gregcop1 <gregcop1@gmail.com>",
-    "Toofff <prouyann@gmail.com> (http://yanoucrea.fr)",
-    "Shatimes <contact@shatimes.fr> (http://www.shatimes.fr)",
-    "JViste <jviste@inouit.com>"
-  ],
-  "keywords": [
-    "yeoman-generator",
-    "front-end",
-    "grid",
-    "coffeescript",
-    "sass",
-    "inouit"
-  ],
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
   "main": "app/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Inouit/generator-dummies.git"
+  "repository": "JuJulien/generator-dummies",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/JuJulien"
   },
-  "bugs": {
-    "url": "https://github.com/Inouit/generator-dummies/issues"
+  "engines": {
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
   "dependencies": {
-    "yeoman-generator": "~0.14.0"
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
   },
   "devDependencies": {
-    "mocha": "~1.14.0"
+    "mocha": "*"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
-  },
-  "engines": {
-    "node": ">=0.8.0",
-    "npm": ">=1.2.10"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  }
 }

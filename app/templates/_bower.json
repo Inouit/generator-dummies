@@ -1,10 +1,6 @@
 {
-  "name": "dummy",
-  "dependencies": {
-    "modernizr": "latest",
-    "jquery": "~1.9.0",
-    "jquery.scrollTo": "latest",
-    "jscrollpane": "~2.0.0"
-  }
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {}
 }
 

@@ -1,14 +1,14 @@
 {
   "name": "dummy",
   "description": "A light Sass & coffee base front-end",
-  "version": "1.1.0",
+  "version": "2.0.0-alpha.1",
   "author": {
     "name": "Inouit",
     "url": "www.inouit.fr"
   },
   "contributors": [
     "Plou <cl.plou@gmail.com> (http://plou.github.io/)",
-    "Gregcop1 <gregcop1@gmail.com>",
+    "Gregcop1 <gregcop1@gmail.com> (https://github.com/Gregcop1)",
     "Toofff <prouyann@gmail.com> (http://yanoucrea.fr)",
     "Shatimes <contact@shatimes.fr> (http://www.shatimes.fr)",
     "JViste <jviste@inouit.com>"
@@ -23,8 +23,6 @@
   "dependencies": {
     "modernizr": "latest",
     "jquery": "<2.0.0",
-    "jquery.scrollTo": "latest",
-    "jscrollpane": "latest"
+    "jquery.scrollTo": "latest"
   }
 }
-

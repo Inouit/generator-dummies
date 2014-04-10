@@ -1,18 +1,5 @@
 {
-  "devDependencies": {
-    "grunt": "*",
-    "grunt-docco-multi": "*",
-<% if (CoffeeScript) { %>
-    "grunt-contrib-coffee": "*",
-<% } %>
-    "grunt-contrib-sass": "*",
-    "grunt-autoprefixer": "*",
-<% if (environment == "scratch") { %>
-    "grunt-contrib-connect": "*",
-    "grunt-open": "*",
-<% } %>
-    "grunt-notify": "~0.2.16",
-    "grunt-contrib-watch": "*",
-    "load-grunt-tasks": "*"
-  }
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {}
 }
